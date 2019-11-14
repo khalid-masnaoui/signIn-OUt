@@ -14,6 +14,8 @@ function signOut() {
     auth2.signOut().then(function() {
         console.log('User signed out.');
     });
+    document.getElementById("signIn").style.display = "block";
+    document.getElementById("signOut").style.display = "none";
 
 
 }
